@@ -1,0 +1,32 @@
+# Dependencies
+node_modules
+
+# Next.js build output
+.next
+out
+dist
+
+# Vercel
+.vercel
+
+# Build artifacts
+tsconfig.tsbuildinfo
+
+# Environment files (never commit secrets)
+.env*.local
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+
+# Dev tool temp files
+.playwright-mcp
+.codex-*
+
+# Nested duplicate scaffold (has its own .git)
+/BRG
