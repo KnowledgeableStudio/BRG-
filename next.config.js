@@ -4,7 +4,7 @@ const isDev = process.env.NODE_ENV === "development";
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  allowedDevOrigins: ['127.0.0.1', '192.168.1.7'],
+  allowedDevOrigins: ['127.0.0.1', 'localhost'],
   images: {
     formats: ["image/avif", "image/webp"],
     qualities: [75, 90, 100],

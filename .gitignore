@@ -28,5 +28,5 @@ Thumbs.db
 .playwright-mcp
 .codex-*
 
-# Nested duplicate scaffold (has its own .git)
-/BRG
+# Commit message temp file
+.commit-msg.txt

@@ -510,7 +510,7 @@ function FaqItem({
             transition={{ duration: 0.25, ease: "easeInOut" }}
             className="overflow-hidden"
           >
-            <p className="px-4 pb-4 pl-15 text-sm leading-6 text-white/60">
+            <p className="px-4 pb-4 pl-[3.75rem] text-sm leading-6 text-white/60">
               {children}
             </p>
           </motion.div>

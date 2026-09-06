@@ -17,7 +17,7 @@ import AnimatedCursor from "@/components/AnimatedCursor";
 import CartDrawer from "@/components/CartDrawer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://brg-future-plush.vercel.app"),
+  metadataBase: new URL("https://brgofficial.com"),
   alternates: {
     canonical: "/",
   },
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: "BRG Collection - Future Plush",
     description:
       "A premium BRG Plush Hoodie Toy with black techwear styling, neon blue accents, and embroidered details.",
-    url: "https://brg-future-plush.vercel.app",
+    url: "https://brgofficial.com",
     siteName: "BRG Collection",
     images: [
       {
@@ -89,8 +89,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "BRG Collection",
-              url: "https://brg-future-plush.vercel.app",
-              logo: "https://brg-future-plush.vercel.app/logo.png",
+              url: "https://brgofficial.com",
+              logo: "https://brgofficial.com/logo.png",
               description:
                 "Premium streetwear and gaming styled e-commerce for the BRG Plush Hoodie Toy.",
               sameAs: []
@@ -105,11 +105,11 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               name: "BRG Collection - Future Plush",
-              url: "https://brg-future-plush.vercel.app",
+              url: "https://brgofficial.com",
               publisher: {
                 "@type": "Organization",
                 name: "BRG Collection",
-                logo: "https://brg-future-plush.vercel.app/logo.png"
+                logo: "https://brgofficial.com/logo.png"
               }
             })
           }}
